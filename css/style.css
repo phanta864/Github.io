@@ -1,0 +1,143 @@
+body{
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 20px;
+}
+.name{
+  background:url("../images/backgrnd.jpg");
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+  font-size: 32px;
+  text-align:center;
+  font-style: normal;
+  height: 100vh;
+  padding-top: 30%;
+
+  width: 100vw;
+  color: #FFF;
+  margin-left: 10px;
+
+}
+
+/* .buttons{
+  position:fixed;
+  text-align: left;
+  background-color: #3F537A
+} */
+.buttons{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 10%;
+    padding-left: 30px;
+
+}
+.aboutme{
+  height: 100vh;
+  padding: 30px;
+  width: 100vw;
+  margin-left: 30px;
+}
+h1{
+  text-align: center;
+  font-family: 'Paytone One', sans-serif;
+}
+li{
+  list-style: none;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 20px;
+}
+#androidLogo{
+  width: 70px;
+  height: 70px;
+  margin-bottom: 50px;
+}
+#app{
+  height: 500px;
+  width: 900px;
+  margin: 15px;
+
+}
+#ap{
+  height: 500px;
+  width: 350px;
+  margin: 15px;
+
+}
+#a{
+  text-align: right;
+}
+#profile{
+  height: 300px;
+  width: 350px;
+  object-fit: contain;
+  margin: 15px;
+
+
+}
+#projects{
+  margin-left: 20%;
+/* background-color: #030202;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed; */
+
+}
+#technical{
+  height: 100vh;
+  padding: 30px;
+  width: 100vw;
+  margin-left: 30px;
+  text-align: center;
+    text-decoration-style: solid;
+  background-color: #B4ADAD
+
+
+}
+#con{
+  text-align: center;
+  padding-bottom: 40px;
+
+  }
+#contacts{
+  height: 80vh;
+  padding: 30px;
+  width: 100vw;
+  margin-left: 30px;
+  color: #FFF;
+  text-align: center;
+  background-color: #030202;
+
+}
+.card{
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  padding: 30px;
+}
+h4{
+  font-size: 25px;
+  text-align: center;
+
+}
+.name{
+  -webkit-animation: slide 2s linear 1;
+  animation: slide 2s linear 1;
+}
+@keyframes  slide {
+  from{
+    opacity: 0;
+    margin-top: 20px;
+  }
+  to{
+    opacity: 1;
+    margin-top: 0;
+  }
+}
